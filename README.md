@@ -38,12 +38,7 @@ Inside the Jupyter Notebook, you can write and execute the microservice code dir
 Replace the placeholder `your_openweathermap_api_key` in the code with your actual API key. You can obtain one by signing up at [OpenWeatherMap](https://openweathermap.org/).
 
 ### 4. Start the FastAPI Server
-Run the code inside Jupyter Notebook terminal to start the server:
-```bash
-uvicorn main:app --reload
-```
-
-The server will run at `http://127.0.0.1:8000`.
+Run the code inside Jupyter Notebook terminal to start the server. The server will run at `http://127.0.0.1:8000`.
 
 ### 5. Test the Endpoint
 Access the `/weather/{city}` endpoint in your browser or use a tool like `curl` or Postman. Replace `{city}` with the name of the city you want to query. For example:
