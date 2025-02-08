@@ -24,6 +24,7 @@ This project combines data from two different APIs to analyze the relationship b
 To install the required libraries, run:
 ```bash
 pip install requests pandas matplotlib
+```
 
 ## AI Use
 AI was used to write the documentation
